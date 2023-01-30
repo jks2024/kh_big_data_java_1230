@@ -1,7 +1,5 @@
 package 제네릭연습;
 
-import java.util.concurrent.SynchronousQueue;
-
 // 제네릭 타입 : 타입 변수를 사용해 다형성 구현(?)
 public class GenericTestEx2 {
     public static void main(String[] args) {
