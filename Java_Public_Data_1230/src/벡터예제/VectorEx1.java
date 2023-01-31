@@ -1,9 +1,6 @@
 package 벡터예제;
-
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Vector;
-
 // Vector는 ArrayList 내부적으로 동일한 구조 입니다. 메소드의 사용 방법도 완전히 동일 합니다. 멀티스레드에 안전 합니다.
 public class VectorEx1 {
     public static void main(String[] args) {
@@ -21,7 +18,6 @@ public class VectorEx1 {
             System.out.println("메일 : " + e.mail);
             System.out.println("직업 : " + e.position);
         }
-
     }
 }
 
