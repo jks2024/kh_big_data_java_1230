@@ -13,8 +13,25 @@ public class MenuInfo implements Comparable<MenuInfo> {
         this.desc = desc;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+
     @Override
     public int compareTo(MenuInfo o) {
-        return name.compareTo(o.name);
+        return this.compareTo(o);
     }
 }

@@ -30,6 +30,7 @@ public class CoffeeMenuEx {
                         System.out.println("가격 : " + map.get(e).price);
                         System.out.println("분류 : " + map.get(e).group);
                         System.out.println("설명 : " + map.get(e).desc);
+                        map.get(e).getDesc();
                         System.out.println("-------------------------");
                     }
                     break;
