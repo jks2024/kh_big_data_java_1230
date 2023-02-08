@@ -12,7 +12,7 @@ public class PrimeWordEx {
             else sum += word.charAt(i) - 'A' + 27;
         }
         System.out.println("합 : " + sum);
-        // 소수인진 아닌지 판변하기, 1은 소수 정하기로 했기 때문에 조건에서 제외
+        // 소수인지 아닌지 판변하기, 1은 소수 정하기로 했기 때문에 조건에서 제외
         for(int i = 2; i < sum; i++) {
             if(sum % i == 0) isPrime = false; // 나누어지면 소수가 아님
         }
