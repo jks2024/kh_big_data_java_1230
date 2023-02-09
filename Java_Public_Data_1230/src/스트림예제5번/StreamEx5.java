@@ -53,5 +53,10 @@ public class StreamEx5 {
         stream7.sorted().forEach(s -> System.out.print(s + " "));
         System.out.println();
         stream8.sorted(Comparator.reverseOrder()).forEach(s->System.out.print(s + " "));
+
+        List<Integer> list = new ArrayList<>(Arrays.asList(5,4,3,2,1));
+        Optional<Integer> rst = list.stream().skip(1).limit(3).reduce((s1, s2)->s1+s2);
+        rst.ifPresent(e->System.out.println(e));
+
     }
 }
